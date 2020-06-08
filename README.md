@@ -5,7 +5,7 @@ In addition to the tool default search algorithm (which supports regular express
 
 ### How to use the tool:
 
-python3 output_file_name binary_file_path json_file_path threshold true(optional)
+<python3 output_file_name binary_file_path json_file_path threshold true(optional)>
 
 The tool should get 4 mandatory inputs and 1 optional:
 - Output File Name - the name of the output JSON file.
