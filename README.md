@@ -8,7 +8,7 @@ In addition to the tool default search algorithm (which supports regular express
 The tool should get 4 mandatory inputs and 1 optional:
 - Output File Name - the name of the output JSON file.
 - Path to binary file - path to the binary file the tool should search in.
-- Path to JSON file which holds the patterns as a dictionary (keys = hex strings patterns or regular expressions). Given example in the project files named "dictionary. JSON".
+- Path to JSON file which holds the patterns as a dictionary (keys = hex strings patterns or regular expressions).Format examples in the project files, named "dictionary.json" and "dictionary_with_regex.json".
 - Threshold Number: if you want the tool to search for repeating bytes with a threshold (= this Number) insert some non-negative natural number. If not -> insert -1.
 - true (optional) - sign the tool to run Aho Corasick algorithm, as mentioned above - this algorithm doesn’t support regular expressions matching, but only regular hex - string matching.
 
