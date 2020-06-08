@@ -4,8 +4,8 @@ Python tool that can find matching patterns in binary files.
 In addition to the tool default search algorithm (which supports regular expressions matching), the tool also supports a very efficient pattern matching algorithm - "Aho Corasick algorithm". Notice that in contrast to the default algorithm of this tool, this algorithm doesn’t support regular expressions matching, and to activate this algorithm you'll have to download the "ahocorasick" package and uncomment the import to ahocorasick package.
 
 ### How to use the tool:
-
-<python3 output_file_name binary_file_path json_file_path threshold true(optional)>
+Run in terminal:
+<python3 PatternsFinder.py output_file_name binary_file_path json_file_path threshold true(optional)>
 
 The tool should get 4 mandatory inputs and 1 optional:
 - Output File Name - the name of the output JSON file.
