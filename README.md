@@ -22,6 +22,7 @@ The tool prints the number of seconds it runs and generates a JSON format file, 
 * Finding magic numbers to identify or verify the content of a file.
 
 ### More:
-Aho Corasick algorithm = <https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm>
+- Aho Corasick algorithm = <https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm>
+- Package - https://pypi.org/project/pyahocorasick/
 
 
